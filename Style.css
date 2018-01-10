@@ -1,0 +1,18 @@
+.nav-pills a {
+    font-family:"Lobster";
+    color: black;
+    font-size: 2.0em;
+}
+
+.bg-navbar{
+    background-color: white;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1500762880816-90413abf38df?auto=format&fit=crop&w=634&q=80");
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    width: 100%;
+}
+
