@@ -5,14 +5,48 @@
 }
 
 .bg-navbar{
-    background-color: white;
+    background-color: #88B0B0;
 }
 
 body {
-    background-image: url("https://images.unsplash.com/photo-1500762880816-90413abf38df?auto=format&fit=crop&w=634&q=80");
-    background-size: cover;
-    height: 100%;
-    background-position: center;
+    margin: auto;    
+}
+
+.first-page {
+    color: black;
+    font-size: 3.0em;
+}
+
+.second-page {
+    color: black;
+    font-size: 3.0em;
+}
+
+.third-page {
+    color: black;
+    font-size: 3.0em;
+}
+
+.portfolio-images {
     width: 100%;
 }
 
+#first-image {
+    background:url("https://images.unsplash.com/photo-1509536011809-cb92bafafd75?auto=format&fit=crop&w=634&q=80");
+    height:900px;
+    background-size: cover;
+    background-position:center;
+}
+
+#second-image {
+    background:url("https://images.unsplash.com/photo-1456618054495-a9c763090b53?auto=format&fit=crop&w=1350&q=80");
+    height: 900px;
+    background-size: cover;
+}
+
+#third-image {
+    height:900px;
+    background:url("https://images.unsplash.com/photo-1450500392544-c2cb0fd6e3b8?auto=format&fit=crop&w=1350&q=80");
+    background-position:center;
+    background-size: cover;
+}
