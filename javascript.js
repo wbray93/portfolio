@@ -14,7 +14,7 @@ $(document).ready(function() {
       //iterate through elements to see if its in view
       $.each(animation_elements, function() {
   
-        //get the element sinformation
+        //get the elements information
         var element = $(this);
         var element_height = $(element).outerHeight();
         var element_top_position = $(element).offset().top;
