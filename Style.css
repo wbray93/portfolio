@@ -61,7 +61,9 @@ body {
 }
 
 .self-portrait {
-    height:350px;
-    width:300px;
-    float:right;
+    height: 400px;
+    width: 315px;
+    float: right;
+    padding-right: 50px;
+    padding-top: 100px;
 }
