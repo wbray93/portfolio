@@ -58,6 +58,7 @@ body {
 
 .social {
     text-align: center;
+    padding-top: 825px;
 }
 
 .self-portrait {
@@ -72,3 +73,6 @@ body {
     padding-top:250px;
     padding-left: 150px;
 }
+
+
+/* ask brayden if i cant figure it out this week about media queries*/
