@@ -83,4 +83,17 @@ body {
 i::before {
     color: #A53045;
 }
-/* ask brayden if i cant figure it out this week about media queries*/
+
+
+
+
+
+
+
+@media(max-width:767px) {
+    .self-portrait {
+        margin-top: 225px;
+        width:150px;
+        height:auto;
+    }
+}
