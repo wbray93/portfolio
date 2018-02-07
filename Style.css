@@ -26,12 +26,14 @@ body {
 }
 
 .third-page {
-    color: black;
-    font-size: 3.0em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 
-.portfolio-images {
-    width: 100%;
+.third-page > div{
+    width:100%;
 }
 
 #first-image {
@@ -62,7 +64,6 @@ body {
 
 .social {
     text-align: center;
-    padding-top: 825px;
 }
 
 .self-portrait {
@@ -82,15 +83,24 @@ body {
 
 i::before {
     color: #A53045;
+    font-size: 3.0em;
 }
 
+.navbar-toggle{
+    border-color:black
+}
 
+.icon-bar{
+    background-color:black;
+}
 
+.portfolio-Projects img{
+    margin: auto;
+    max-height: 450px;
+    width: auto;
+}
 
-
-
-
-@media(max-width:767px) {
+@media(max-width:768px) {
     .self-portrait {
         margin-top: 225px;
         width:150px;
