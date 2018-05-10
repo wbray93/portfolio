@@ -161,12 +161,6 @@ i::before {
 /* blogs.html styling section **************************************************************************** */
 
 #blogs {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 90%;
-}
-
-#blogs a {
+    text-align: center;
     font-size: 3.0em;
 }
