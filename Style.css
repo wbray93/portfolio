@@ -128,6 +128,10 @@ i::before {
         width:150px;
         height:auto;
     }
+
+    .skills {
+        font-size: 0.5em;
+    }
 }
 
 .learning-focus {
