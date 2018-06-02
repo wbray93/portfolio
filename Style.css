@@ -78,8 +78,12 @@ body {
 .skills {
    display: flex;
    align-items: center;
-   justify-content: center;
+   justify-content: flex-start;
    height:100%;
+}
+
+#skills-list{
+    padding-left: 15%;
 }
 
 
@@ -124,8 +128,17 @@ i::before {
         width:150px;
         height:auto;
     }
+
+    .skills {
+        font-size: 0.5em;
+    }
 }
 
+.learning-focus {
+    display: flex;
+    font-size: 80%;
+    padding-left: 25%;
+}
 
 /* blog.html css ************************************************************************************** */
 
@@ -134,4 +147,24 @@ i::before {
     align-items: center;
     justify-content: center;
     height: 100%;
+    flex-direction: column;
+    margin: auto;
+    border: solid 2px black;
+}
+
+.blog-post-box {
+    margin-left:200px;
+    margin-right: 200px;
+    font-size: 1.5em;
+    margin-top: 20px;
+    word-wrap: break-word;
+    margin-bottom: 50px;
+}
+
+
+/* blogs.html styling section **************************************************************************** */
+
+#blogs {
+    text-align: center;
+    font-size: 3.0em;
 }

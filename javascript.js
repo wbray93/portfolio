@@ -66,8 +66,19 @@ $(document).ready(function () {
 //BLOGS LIST SECTION ************************************************************************************
 
 $(document).ready(function () {
-  for (x = 0; x < 10; x++)
-    $("#blogs").append('<p><a href="./blog.html?id=' + x + '">Hello World!</a></p>')
+$.get("https://whitehawkindustriesportfolio.000webhostapp.com/backend/beposts", function(data){
+  console.log(data)
+  data.sort(function(a,b) { 
+    return new Date(a.created_date).getTime() - new Date(b.created_date).getTime() 
+});
+    for (x = 0; x < data.length; x++)
+      $("#blogs").append(`<div><a href="./blog.html?id=${data[x].id}">${data[x].title}</a></div>`)
+})
+
+
+
+
+  
 
 })
 
@@ -79,6 +90,10 @@ $(document).ready(function () {
 
 $(document).ready(function () {
 var id = getUrlParameter("id")
-  $('#id').text(id)
-
+  $.get(`https://whitehawkindustriesportfolio.000webhostapp.com/backend/bepost?id=${id}`, function(data){
+    console.log(data)
+    $('#title').text(data.title)
+    $('#created_date').text(data.created_date)
+    $('#content').text(data.content)
+  })
 })
