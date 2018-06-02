@@ -1,170 +1,168 @@
 .bg-navbar {
-    background-color:#4b679e;
+  background-color: #4b679e;
 }
 
 .navbar {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .bg-navbar a {
-    color: Black;
-    font-size: 2.0em;
+  color: Black;
+  font-size: 2em;
 }
 
 body {
-    margin: auto;    
+  margin: auto;
 }
 
 .first-page {
-    color: black;
-    font-size: 2.0em;
+  color: black;
+  font-size: 2em;
 }
 
 .second-page {
-    color: black;
-    font-size: 3.0em;
+  color: black;
+  font-size: 3em;
 }
 
 .third-page {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
 }
 
-.third-page > div{
-    width:100%;
+.third-page > div {
+  width: 100%;
 }
 
 #first-image {
-    background:url("adventurecup.jpg");
-    height:900px;
-    background-size: cover;
-    background-position:center;
+  background: url("adventurecup.jpg");
+  height: 900px;
+  background-size: cover;
+  background-position: center;
 }
 
 #second-image {
-    background:url("adventureboat.jpg");
-    height: 900px;
-    background-size: cover;
-    background-position: center;
+  background: url("adventureboat.jpg");
+  height: 900px;
+  background-size: cover;
+  background-position: center;
 }
 
 #third-image {
-    height:900px;
-    background:url("horizonpicture.jpg");
-    background-position:center;
-    background-size: cover;
+  height: 900px;
+  background: url("horizonpicture.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .quote-border {
-    border-top: 3px solid white;
-    border-bottom: 3px solid white;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
 }
 
 .social {
-    text-align: center;
+  text-align: center;
 }
 
 .self-portrait {
-    height: 400px;
-    width: 315px;
-    float: right;
-    margin-right: 50px;
-    margin-top: 100px;
-    border: solid 4px black;
+  height: 400px;
+  width: 315px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 100px;
+  border: solid 4px black;
 }
 
 .skills {
-   display: flex;
-   align-items: center;
-   justify-content: flex-start;
-   height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
 }
 
-#skills-list{
-    padding-left: 15%;
+#skills-list {
+  padding-left: 15%;
 }
-
 
 i::before {
-    color: #A53045;
-    font-size: 3.0em;
+  color: #a53045;
+  font-size: 3em;
 }
 
-.navbar-toggle{
-    border-color:black
+.navbar-toggle {
+  border-color: black;
 }
 
-.icon-bar{
-    background-color:black;
+.icon-bar {
+  background-color: black;
 }
 
-.portfolio-Projects img{
-    margin: auto;
-    max-height: 450px;
-    width: auto;
+.portfolio-Projects img {
+  margin: auto;
+  max-height: 450px;
+  width: auto;
 }
 
-.fa-anchor:before{
-    margin-right: 8px;
+.fa-anchor:before {
+  margin-right: 8px;
 }
 
-.fa-github-square:before{
-    margin-right: 8px;
+.fa-github-square:before {
+  margin-right: 8px;
 }
 
-.fa-linkedin-square:before{
-    margin-right: 8px;
+.fa-linkedin-square:before {
+  margin-right: 8px;
 }
 
-.fa-twitter:before{
-    margin-right: 8px;
+.fa-twitter:before {
+  margin-right: 8px;
 }
 
-@media(max-width:768px) {
-    .self-portrait {
-        margin-top: 225px;
-        width:150px;
-        height:auto;
-    }
+@media (max-width: 768px) {
+  .self-portrait {
+    margin-top: 225px;
+    width: 150px;
+    height: auto;
+  }
 
-    .skills {
-        font-size: 0.5em;
-    }
+  .skills {
+    font-size: 0.5em;
+  }
 }
 
 .learning-focus {
-    display: flex;
-    font-size: 80%;
-    padding-left: 25%;
+  display: flex;
+  font-size: 80%;
+  padding-left: 25%;
 }
 
 /* blog.html css ************************************************************************************** */
 
 .blog-flex-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    flex-direction: column;
-    margin: auto;
-    border: solid 2px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  margin: auto;
+  border: solid 2px black;
 }
 
 .blog-post-box {
-    margin-left:200px;
-    margin-right: 200px;
-    font-size: 1.5em;
-    margin-top: 20px;
-    word-wrap: break-word;
-    margin-bottom: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 1.5em;
+  margin-top: 20px;
+  word-wrap: break-word;
+  margin-bottom: 50px;
 }
-
 
 /* blogs.html styling section **************************************************************************** */
 
 #blogs {
-    text-align: center;
-    font-size: 3.0em;
+  text-align: center;
+  font-size: 3em;
 }
